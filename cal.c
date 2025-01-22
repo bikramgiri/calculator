@@ -6,6 +6,7 @@
 
 // Calculator Functions
 void addition() {
+
   int num1, num2;
 
   printf("\nEnter first number: ");
@@ -16,6 +17,7 @@ void addition() {
 }
 
 void subtraction() {
+
   int num1, num2;
 
   printf("\nEnter first number: ");
@@ -26,6 +28,7 @@ void subtraction() {
 }
 
 void multiplication() {
+
   int num1, num2;
 
   printf("\nEnter first number: ");
@@ -36,6 +39,7 @@ void multiplication() {
 }
 
 void division() {
+
   float num1, num2;
 
   printf("\nEnter first number: ");
@@ -46,6 +50,7 @@ void division() {
 }
 
 void power() {
+
   float num1, num2;
 
   printf("\nEnter the number: ");
@@ -56,12 +61,14 @@ void power() {
 }
 
 int main() {
-  // variable to take choice from user
+
+  // Variable to take choice from user
   int choice;
 
-  // infinite while loop to print the menu till exit is selected
+  // Infinite while loop to print the menu till exit is selected
   while(1) {
-    // print menu
+
+    // Print menu
     printf("\n--- CALCULATOR ---\n");
     printf("\n1) Addition");
     printf("\n2) Subtraction");
@@ -71,7 +78,7 @@ int main() {
     printf("\n6) Exit");
 
     printf("\nEnter Your Choice: ");
-    // accept choice from user
+    // Accept choice from user
     scanf("%d", &choice);
 
     switch(choice) {
